@@ -15,6 +15,7 @@ def find_max_profit(prices):
                 max_price = num2
                 profit_margin = max_price - min_price
                 profit.append(profit_margin)
+
     return max(profit)
 
 
