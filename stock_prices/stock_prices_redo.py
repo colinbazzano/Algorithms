@@ -15,11 +15,8 @@ def find_max_profit(prices):
                 max_price = num2
                 profit_margin = max_price - min_price
                 profit.append(profit_margin)
-
     return max(profit)
 
-
-# print(find_max_profit([13, 43, 8, 34, 4, 54]))
 
 if __name__ == '__main__':
     # This is just some code to accept inputs from the command line
